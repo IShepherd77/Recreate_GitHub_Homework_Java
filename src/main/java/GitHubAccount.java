@@ -16,4 +16,11 @@ public class GitHubAccount {
     }
 
 
+    public String getAccountUserName() {
+        return this.userName;
+    }
+
+    public String getAccountName() {
+        return this.accountName;
+    }
 }

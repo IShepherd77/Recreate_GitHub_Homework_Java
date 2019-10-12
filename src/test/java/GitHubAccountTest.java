@@ -1,4 +1,7 @@
 import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class GitHubAccountTest {
 
@@ -17,6 +20,16 @@ public class GitHubAccountTest {
         commit1 = new Commit("Commit 1 desc", CommitType.FEATURE, 1);
         commit2 = new Commit("Commit 2 desc", CommitType.FEATURE, 2);
         commit3 = new Commit("Commit 3 desc", CommitType.BUGFIX, 3);
+    }
+
+    @Test
+    public void canGetAccountUserName(){
+        assertEquals("Username 1 Here", account1.getAccountUserName());
+    }
+
+    @Test
+    public void canGetAccountName(){
+        assertEquals("Account name here", account1.getAccountName());
     }
 
     
