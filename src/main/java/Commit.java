@@ -9,4 +9,9 @@ public class Commit {
         this.commit = commit;
         this.uniqueId = uniqueId;
     }
+
+
+    public String getCommitDescription() {
+        return this.description;
+    }
 }
