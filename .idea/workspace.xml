@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94916e27-2c24-414e-aeea-9ab100558535" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Commit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Commit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CommitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CommitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CommitTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
@@ -70,6 +70,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Repository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -90,6 +99,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/CommitTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Commit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Repository.java" />
       </list>
     </option>
   </component>
@@ -129,6 +139,13 @@
               <item name="GitHubHomework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GitHubHomework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GitHubHomework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GitHubHomework" type="b2602c69:ProjectViewProjectNode" />
@@ -217,6 +234,9 @@
     <history-entry file="CommitTest_canGetCommitType - 2019.10.12 at 14h 52m 27s.xml">
       <configuration name="CommitTest.canGetCommitType" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CommitTest_canGetUniqueId - 2019.10.12 at 14h 57m 34s.xml">
+      <configuration name="CommitTest.canGetUniqueId" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="6" />
@@ -227,7 +247,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15912762" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15912762" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -261,21 +281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Commit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding>
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CommitType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -298,6 +303,28 @@
             <element signature="e#582#583#0" expanded="true" />
             <element signature="e#612#613#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Commit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding>
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
         </state>
       </provider>
     </entry>
