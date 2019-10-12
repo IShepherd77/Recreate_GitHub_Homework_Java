@@ -18,4 +18,8 @@ public Repository (String repositoryName, String repositoryDescription, Reposito
     public String getRepositoryName() {
     return this.repositoryName;
     }
+
+    public String getRepositoryDescription() {
+    return this.repositoryDescription;
+    }
 }

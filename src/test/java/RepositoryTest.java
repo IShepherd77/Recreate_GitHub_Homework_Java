@@ -25,4 +25,9 @@ public class RepositoryTest {
         assertEquals("Repo 1 name here", repository1.getRepositoryName());
     }
 
+    @Test
+    public void canGetRepositoryDescription(){
+        assertEquals("Repo 1 description here", repository1.getRepositoryDescription());
+    }
+
 }

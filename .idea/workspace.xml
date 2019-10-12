@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94916e27-2c24-414e-aeea-9ab100558535" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/RepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RepositoryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,11 +73,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Repository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            <state relative-caret-position="330">
+              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
               <folding>
                 <element signature="e#546#547#0" expanded="true" />
                 <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#632#633#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,8 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/RepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="61" lean-forward="true" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+            <state relative-caret-position="435">
+              <caret line="29" column="69" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#642#643#0" expanded="true" />
@@ -212,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RepositoryTest.canGetRepositoryName">
+  <component name="RunManager" selected="JUnit.RepositoryTest.canGetRepositoryDescription">
     <configuration name="CommitTest.canGetCommitDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GitHubHomework" />
       <option name="PACKAGE_NAME" value="" />
@@ -243,6 +244,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RepositoryTest.canGetRepositoryDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GitHubHomework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RepositoryTest" />
+      <option name="METHOD_NAME" value="canGetRepositoryDescription" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RepositoryTest.canGetRepositoryName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GitHubHomework" />
       <option name="PACKAGE_NAME" value="" />
@@ -255,6 +266,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RepositoryTest.canGetRepositoryDescription" />
         <item itemvalue="JUnit.RepositoryTest.canGetRepositoryName" />
         <item itemvalue="JUnit.CommitTest.canGetUniqueId" />
         <item itemvalue="JUnit.CommitTest.canGetCommitType" />
@@ -285,6 +297,9 @@
     <history-entry file="CommitTest_canGetUniqueId - 2019.10.12 at 14h 57m 34s.xml">
       <configuration name="CommitTest.canGetUniqueId" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RepositoryTest_canGetRepositoryName - 2019.10.12 at 15h 27m 13s.xml">
+      <configuration name="RepositoryTest.canGetRepositoryName" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="6" />
@@ -295,7 +310,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15912762" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15912762" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -378,19 +393,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Repository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        <state relative-caret-position="330">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
           <folding>
             <element signature="e#546#547#0" expanded="true" />
             <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="61" lean-forward="true" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+        <state relative-caret-position="435">
+          <caret line="29" column="69" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#642#643#0" expanded="true" />
