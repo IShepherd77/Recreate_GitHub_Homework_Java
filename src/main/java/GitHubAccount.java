@@ -27,4 +27,8 @@ public class GitHubAccount {
     public AccountType getAccountType() {
         return this.accountType;
     }
+
+    public void setAccountType(AccountType accountType) {
+        this.accountType = accountType;
+    }
 }

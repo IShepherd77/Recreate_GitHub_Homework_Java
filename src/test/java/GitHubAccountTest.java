@@ -37,5 +37,12 @@ public class GitHubAccountTest {
         assertEquals(AccountType.FREE, account1.getAccountType());
     }
 
+    @Test
+    public void canSetAccountType(){
+        assertEquals(AccountType.FREE, account1.getAccountType());
+        account1.setAccountType(AccountType.PRO);
+        assertEquals(AccountType.PRO, account1.getAccountType());
+    }
+
 
 }
