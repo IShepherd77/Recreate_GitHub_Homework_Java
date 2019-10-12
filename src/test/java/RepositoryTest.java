@@ -44,4 +44,12 @@ public class RepositoryTest {
         assertEquals(2, repository1.repositoryCommitCount());
     }
 
+    @Test
+    public void canGetRepositoryCommitById(){
+        repository1.addCommitToRepository(commit2);
+        repository1.addCommitToRepository(commit3);
+        Commit commit = repository1.getRepositoryCommitById(2);
+        assertEquals(2, commit.getCommitUniqueId());
+    }
+
 }

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94916e27-2c24-414e-aeea-9ab100558535" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Commit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Commit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CommitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CommitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RepositoryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -75,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Repository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+            <state relative-caret-position="509">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="e#546#547#0" expanded="true" />
                 <element signature="e#568#569#0" expanded="true" />
@@ -97,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/RepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="539">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+              <caret line="50" column="67" lean-forward="true" selection-start-line="50" selection-start-column="67" selection-end-line="50" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#642#643#0" expanded="true" />
@@ -223,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RepositoryTest.canAddCommitToRepository">
+  <component name="RunManager" selected="JUnit.RepositoryTest.canGetRepositoryCommitById">
     <configuration name="CommitTest.canGetCommitUniqueId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GitHubHomework" />
       <option name="PACKAGE_NAME" value="" />
@@ -254,11 +252,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepositoryTest.canGetRepositoryDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RepositoryTest.canGetRepositoryCommitById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GitHubHomework" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RepositoryTest" />
-      <option name="METHOD_NAME" value="canGetRepositoryDescription" />
+      <option name="METHOD_NAME" value="canGetRepositoryCommitById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -276,11 +274,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RepositoryTest.canGetRepositoryCommitById" />
         <item itemvalue="JUnit.RepositoryTest.canAddCommitToRepository" />
         <item itemvalue="JUnit.RepositoryTest.canGetCommitId" />
         <item itemvalue="JUnit.CommitTest.canGetCommitUniqueId" />
         <item itemvalue="JUnit.RepositoryTest.canGetRepositoryType" />
-        <item itemvalue="JUnit.RepositoryTest.canGetRepositoryDescription" />
       </list>
     </recent_temporary>
   </component>
@@ -321,6 +319,12 @@
     </history-entry>
     <history-entry file="RepositoryTest_canGetCommitId - 2019.10.12 at 15h 39m 11s.xml">
       <configuration name="RepositoryTest.canGetCommitId" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepositoryTest_canAddCommitToRepository - 2019.10.12 at 15h 58m 27s.xml">
+      <configuration name="RepositoryTest.canAddCommitToRepository" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepositoryTest_canAddCommitToRepository - 2019.10.12 at 16h 00m 32s.xml">
+      <configuration name="RepositoryTest.canAddCommitToRepository" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -415,8 +419,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Repository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        <state relative-caret-position="509">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="e#546#547#0" expanded="true" />
             <element signature="e#568#569#0" expanded="true" />
@@ -435,7 +439,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/RepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="539">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <caret line="50" column="67" lean-forward="true" selection-start-line="50" selection-start-column="67" selection-end-line="50" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#642#643#0" expanded="true" />

@@ -34,4 +34,13 @@ public Repository (String repositoryName, String repositoryDescription, Reposito
     public int repositoryCommitCount(){
     return commits.size();
     }
+
+    public Commit getRepositoryCommitById(int Id) {
+        for (Commit commit : commits) {
+            if (commit.getCommitUniqueId() == Id) {
+                return commit;
+            }
+        }
+        throw new IllegalArgumentException("Id not found");
+    }
 }
