@@ -30,4 +30,9 @@ public class RepositoryTest {
         assertEquals("Repo 1 description here", repository1.getRepositoryDescription());
     }
 
+    @Test
+    public void canGetRepositoryType(){
+        assertEquals(RepositoryType.PUBLIC, repository1.getRepositorytype());
+    }
+
 }

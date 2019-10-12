@@ -213,17 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RepositoryTest.canGetRepositoryDescription">
-    <configuration name="CommitTest.canGetCommitDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GitHubHomework" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CommitTest" />
-      <option name="METHOD_NAME" value="canGetCommitDescription" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RepositoryTest.canGetRepositoryType">
     <configuration name="CommitTest.canGetCommitType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GitHubHomework" />
       <option name="PACKAGE_NAME" value="" />
@@ -264,13 +254,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RepositoryTest.canGetRepositoryType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GitHubHomework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RepositoryTest" />
+      <option name="METHOD_NAME" value="canGetRepositoryType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RepositoryTest.canGetRepositoryType" />
         <item itemvalue="JUnit.RepositoryTest.canGetRepositoryDescription" />
         <item itemvalue="JUnit.RepositoryTest.canGetRepositoryName" />
         <item itemvalue="JUnit.CommitTest.canGetUniqueId" />
         <item itemvalue="JUnit.CommitTest.canGetCommitType" />
-        <item itemvalue="JUnit.CommitTest.canGetCommitDescription" />
       </list>
     </recent_temporary>
   </component>

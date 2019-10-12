@@ -22,4 +22,8 @@ public Repository (String repositoryName, String repositoryDescription, Reposito
     public String getRepositoryDescription() {
     return this.repositoryDescription;
     }
+
+    public RepositoryType getRepositorytype() {
+    return this.repositoryType;
+    }
 }
