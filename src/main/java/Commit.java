@@ -14,4 +14,8 @@ public class Commit {
     public String getCommitDescription() {
         return this.description;
     }
+
+    public CommitType getCommitType() {
+        return this.commit;
+    }
 }

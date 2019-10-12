@@ -17,6 +17,11 @@ public class CommitTest {
         assertEquals("Commit 1 description here", commit.getCommitDescription());
     }
 
+    @Test
+    public void canGetCommitType(){
+        assertEquals(CommitType.FEATURE, commit.getCommitType());
+    }
+
 
 
 }
