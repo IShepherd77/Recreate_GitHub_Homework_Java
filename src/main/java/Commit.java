@@ -18,4 +18,8 @@ public class Commit {
     public CommitType getCommitType() {
         return this.commit;
     }
+
+    public int getCommitId() {
+        return this.uniqueId;
+    }
 }

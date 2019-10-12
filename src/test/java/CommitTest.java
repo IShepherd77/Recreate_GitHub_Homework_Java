@@ -22,6 +22,11 @@ public class CommitTest {
         assertEquals(CommitType.FEATURE, commit.getCommitType());
     }
 
+    @Test
+    public void canGetUniqueId(){
+        assertEquals(1, commit.getCommitId());
+    }
+
 
 
 }
