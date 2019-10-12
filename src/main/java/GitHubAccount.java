@@ -36,8 +36,11 @@ public class GitHubAccount {
         return repositories.size();
     }
 
-
     public void addRepositoryToAccount(Repository repository) {
         repositories.put(repository.getRepositoryName(), repository);
+    }
+
+    public Repository getAccountRepositoryByName(String repoName){
+        return repositories.get(repoName);
     }
 }

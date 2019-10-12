@@ -53,5 +53,13 @@ public class GitHubAccountTest {
         assertEquals(2, account1.getRepositoryCount());
     }
 
+    @Test
+    public void canGetAccountRepositoryByName(){
+        account1.addRepositoryToAccount(repository1);
+        account1.addRepositoryToAccount(repository2);
+        Repository result = account1.getAccountRepositoryByName("Repo 1 name here");
+        assertEquals("Repo 1 name here", result.getRepositoryName());
+    }
+
 
 }
