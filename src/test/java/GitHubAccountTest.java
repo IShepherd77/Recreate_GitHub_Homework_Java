@@ -32,5 +32,10 @@ public class GitHubAccountTest {
         assertEquals("Account name here", account1.getAccountName());
     }
 
-    
+    @Test
+    public void canGetAccountType(){
+        assertEquals(AccountType.FREE, account1.getAccountType());
+    }
+
+
 }
