@@ -26,4 +26,12 @@ public Repository (String repositoryName, String repositoryDescription, Reposito
     public RepositoryType getRepositorytype() {
     return this.repositoryType;
     }
+
+    public void addCommitToRepository(Commit commit){
+    commits.add(commit);
+    }
+
+    public int repositoryCommitCount(){
+    return commits.size();
+    }
 }

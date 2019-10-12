@@ -19,7 +19,7 @@ public class Commit {
         return this.commit;
     }
 
-    public int getCommitId() {
+    public int getCommitUniqueId() {
         return this.uniqueId;
     }
 }
