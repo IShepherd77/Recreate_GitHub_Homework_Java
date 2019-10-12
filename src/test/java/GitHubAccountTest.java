@@ -44,5 +44,14 @@ public class GitHubAccountTest {
         assertEquals(AccountType.PRO, account1.getAccountType());
     }
 
+    @Test
+    public void canAddRepositoryToAccount(){
+        assertEquals(0, account1.getRepositoryCount());
+        account1.addRepositoryToAccount(repository1);
+        assertEquals(1, account1.getRepositoryCount());
+        account1.addRepositoryToAccount(repository2);
+        assertEquals(2, account1.getRepositoryCount());
+    }
+
 
 }

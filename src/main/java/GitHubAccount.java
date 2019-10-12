@@ -31,4 +31,13 @@ public class GitHubAccount {
     public void setAccountType(AccountType accountType) {
         this.accountType = accountType;
     }
+
+    public int getRepositoryCount() {
+        return repositories.size();
+    }
+
+
+    public void addRepositoryToAccount(Repository repository) {
+        repositories.put(repository.getRepositoryName(), repository);
+    }
 }
