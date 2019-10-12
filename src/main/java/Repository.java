@@ -43,4 +43,14 @@ public Repository (String repositoryName, String repositoryDescription, Reposito
         }
         throw new IllegalArgumentException("Id not found");
     }
+
+    public ArrayList<Commit> getAllRepositoryCommitsByType(CommitType type) {
+    ArrayList<Commit> returnValue = new ArrayList<Commit>();
+    for(Commit commit : commits){
+        if(commit.getCommitType() == type){
+            returnValue.add(commit);
+        }
+    }
+    return returnValue;
+    }
 }
