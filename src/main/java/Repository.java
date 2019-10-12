@@ -14,4 +14,8 @@ public Repository (String repositoryName, String repositoryDescription, Reposito
     this.repositoryType = repositoryType;
     this.commits = new ArrayList<Commit>();
 }
+
+    public String getRepositoryName() {
+    return this.repositoryName;
+    }
 }
