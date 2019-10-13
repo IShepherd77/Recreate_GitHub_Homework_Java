@@ -20,6 +20,9 @@ public class GitHubAccountTest {
         commit1 = new Commit("Commit 1 desc", CommitType.FEATURE, 1);
         commit2 = new Commit("Commit 2 desc", CommitType.FEATURE, 2);
         commit3 = new Commit("Commit 3 desc", CommitType.BUGFIX, 3);
+        repository1.addCommitToRepository(commit1);
+        repository2.addCommitToRepository(commit1);
+        repository2.addCommitToRepository(commit2);
     }
 
     @Test
@@ -61,5 +64,13 @@ public class GitHubAccountTest {
         assertEquals("Repo 1 name here", result.getRepositoryName());
     }
 
+    @Test
+    public void canGetRepositoryWithMostCommits(){
+        account1.addRepositoryToAccount(repository1);
+        account1.addRepositoryToAccount(repository2);
+        Repository result = account1.getRepositoryWithMostCommits();
+        assertEquals("Repo 2 name here", result.getRepositoryName());
+        assertEquals(2, result.repositoryCommitCount());
+    }
 
 }

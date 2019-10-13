@@ -43,4 +43,18 @@ public class GitHubAccount {
     public Repository getAccountRepositoryByName(String repoName){
         return repositories.get(repoName);
     }
-}
+
+
+    public Repository getRepositoryWithMostCommits() {
+        int currentMax = -1;
+        Repository returnValue = null;
+        for(HashMap.Entry<String, Repository> repository : repositories.entrySet()){
+            if(repository.getValue().repositoryCommitCount() > currentMax){
+                currentMax = repository.getValue().repositoryCommitCount();
+                    returnValue = repository.getValue();
+                }
+            }
+            return returnValue;
+        }
+    }
+
