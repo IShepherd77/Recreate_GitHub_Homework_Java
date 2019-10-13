@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94916e27-2c24-414e-aeea-9ab100558535" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/GitHubAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GitHubAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GitHubAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GitHubAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Commit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+            <state relative-caret-position="150">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding>
                 <element signature="e#340#341#0" expanded="true" />
                 <element signature="e#366#367#0" expanded="true" />
@@ -73,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Repository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+            <state relative-caret-position="202">
+              <caret line="37" column="51" lean-forward="true" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
               <folding>
                 <element signature="e#546#547#0" expanded="true" />
                 <element signature="e#568#569#0" expanded="true" />
@@ -92,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/RepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="64" column="41" lean-forward="true" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
+            <state relative-caret-position="418">
+              <caret line="41" column="61" lean-forward="true" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#642#643#0" expanded="true" />
@@ -117,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GitHubAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="47" column="44" lean-forward="true" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
+            <state relative-caret-position="885">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#524#525#0" expanded="true" />
@@ -144,8 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/GitHubAccountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="990">
+              <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#854#855#0" expanded="true" />
@@ -191,9 +190,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Commit.java" />
         <option value="$PROJECT_DIR$/src/test/java/RepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/AccountType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Repository.java" />
-        <option value="$PROJECT_DIR$/src/test/java/GitHubAccountTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/GitHubAccount.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GitHubAccountTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Repository.java" />
       </list>
     </option>
   </component>
@@ -276,13 +275,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GitHubAccountTest.canGetRepositoryWithMostCommits">
-    <configuration name="GitHubAccountTest.canAddRepositoryToAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in GitHubHomework">
+    <configuration name="All in GitHubHomework" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GitHubHomework" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GitHubAccountTest" />
-      <option name="METHOD_NAME" value="canAddRepositoryToAccount" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -307,11 +304,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GitHubAccountTest.canSetAccountType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RepositoryTest.canGetAllRepositoryCommitsOfCertainType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GitHubHomework" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GitHubAccountTest" />
-      <option name="METHOD_NAME" value="canSetAccountType" />
+      <option name="MAIN_CLASS_NAME" value="RepositoryTest" />
+      <option name="METHOD_NAME" value="canGetAllRepositoryCommitsOfCertainType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -329,11 +326,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GitHubAccountTest.canGetRepositoryWithMostCommits" />
+        <item itemvalue="JUnit.All in GitHubHomework" />
         <item itemvalue="JUnit.RepositoryTest.canGetRepositoryCommitById" />
+        <item itemvalue="JUnit.RepositoryTest.canGetAllRepositoryCommitsOfCertainType" />
+        <item itemvalue="JUnit.GitHubAccountTest.canGetRepositoryWithMostCommits" />
         <item itemvalue="JUnit.GitHubAccountTest.canGetAccountRepositoryByName" />
-        <item itemvalue="JUnit.GitHubAccountTest.canAddRepositoryToAccount" />
-        <item itemvalue="JUnit.GitHubAccountTest.canSetAccountType" />
       </list>
     </recent_temporary>
   </component>
@@ -351,27 +348,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RepositoryTest_canGetRepositoryCommitById - 2019.10.12 at 16h 23m 38s.xml">
-      <configuration name="RepositoryTest.canGetRepositoryCommitById" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RepositoryTest_canGetRepositoryCommitById - 2019.10.12 at 16h 24m 50s.xml">
-      <configuration name="RepositoryTest.canGetRepositoryCommitById" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RepositoryTest_canGetAllRepositoryCommitsOfCertainType - 2019.10.12 at 16h 49m 33s.xml">
-      <configuration name="RepositoryTest.canGetAllRepositoryCommitsOfCertainType" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GitHubAccountTest_canGetAccountUserName - 2019.10.12 at 17h 17m 52s.xml">
-      <configuration name="GitHubAccountTest.canGetAccountUserName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GitHubAccountTest_canGetAccountName - 2019.10.12 at 17h 19m 16s.xml">
-      <configuration name="GitHubAccountTest.canGetAccountName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GitHubAccountTest_canGetAccountType - 2019.10.12 at 17h 24m 01s.xml">
-      <configuration name="GitHubAccountTest.canGetAccountType" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GitHubAccountTest_canSetAccountType - 2019.10.12 at 17h 29m 53s.xml">
-      <configuration name="GitHubAccountTest.canSetAccountType" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GitHubAccountTest_canAddRepositoryToAccount - 2019.10.12 at 17h 56m 24s.xml">
       <configuration name="GitHubAccountTest.canAddRepositoryToAccount" configurationId="JUnit" />
     </history-entry>
@@ -380,6 +356,27 @@
     </history-entry>
     <history-entry file="GitHubAccountTest_canGetAccountRepositoryByName - 2019.10.12 at 18h 21m 35s.xml">
       <configuration name="GitHubAccountTest.canGetAccountRepositoryByName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GitHubAccountTest_canGetRepositoryWithMostCommits - 2019.10.13 at 11h 58m 14s.xml">
+      <configuration name="GitHubAccountTest.canGetRepositoryWithMostCommits" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GitHubAccountTest_canGetRepositoryWithMostCommits - 2019.10.13 at 11h 59m 34s.xml">
+      <configuration name="GitHubAccountTest.canGetRepositoryWithMostCommits" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GitHubAccountTest_canGetRepositoryWithMostCommits - 2019.10.13 at 11h 59m 53s.xml">
+      <configuration name="GitHubAccountTest.canGetRepositoryWithMostCommits" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GitHubAccountTest_canGetRepositoryWithMostCommits - 2019.10.13 at 12h 00m 07s.xml">
+      <configuration name="GitHubAccountTest.canGetRepositoryWithMostCommits" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepositoryTest_canGetAllRepositoryCommitsOfCertainType - 2019.10.13 at 14h 16m 41s.xml">
+      <configuration name="RepositoryTest.canGetAllRepositoryCommitsOfCertainType" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepositoryTest_canGetRepositoryCommitById - 2019.10.13 at 14h 16m 48s.xml">
+      <configuration name="RepositoryTest.canGetRepositoryCommitById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_GitHubHomework - 2019.10.13 at 14h 17m 02s.xml">
+      <configuration name="All in GitHubHomework" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -391,15 +388,15 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.19386107" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.19386107" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.3296355" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.32852563" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.3296355" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32852563" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -457,24 +454,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RepositoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AccountType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="64" column="41" lean-forward="true" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GitHubAccountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+            <element signature="e#1184#1185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GitHubAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+            <element signature="e#1121#1122#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Commit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        <state relative-caret-position="150">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
             <element signature="e#340#341#0" expanded="true" />
             <element signature="e#366#367#0" expanded="true" />
@@ -488,8 +516,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Repository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+        <state relative-caret-position="202">
+          <caret line="37" column="51" lean-forward="true" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
           <folding>
             <element signature="e#546#547#0" expanded="true" />
             <element signature="e#568#569#0" expanded="true" />
@@ -506,47 +534,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AccountType.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/RepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/GitHubAccountTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="418">
+          <caret line="41" column="61" lean-forward="true" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#854#855#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#1030#1031#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1154#1155#0" expanded="true" />
-            <element signature="e#1184#1185#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GitHubAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="47" column="44" lean-forward="true" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#1094#1095#0" expanded="true" />
-            <element signature="e#1121#1122#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
           </folding>
         </state>
       </provider>

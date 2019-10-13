@@ -36,7 +36,7 @@ public Repository (String repositoryName, String repositoryDescription, Reposito
     }
 
     public Commit getRepositoryCommitById(int Id) {
-        for (Commit commit : commits) {
+        for (Commit commit : this.commits) {
             if (commit.getCommitUniqueId() == Id) {
                 return commit;
             }
@@ -46,7 +46,7 @@ public Repository (String repositoryName, String repositoryDescription, Reposito
 
     public ArrayList<Commit> getAllRepositoryCommitsByType(CommitType type) {
     ArrayList<Commit> returnValue = new ArrayList<Commit>();
-    for(Commit commit : commits){
+    for(Commit commit : this.commits){
         if(commit.getCommitType() == type){
             returnValue.add(commit);
         }
